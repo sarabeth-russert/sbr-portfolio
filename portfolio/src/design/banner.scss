@@ -1,0 +1,43 @@
+#banner {
+  background-color: rgb(226, 208, 159);
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:  20px 20px 20px 20px 20px 10px;
+  height: 290px;
+  margin-top: 20px;
+}
+
+#camera {
+  height: 16rem;
+  grid-column: 1 / 4;
+  grid-row: 4 / 6;
+  align-self: center;
+  justify-self: center;
+}
+
+#compass {
+  height: 8rem;
+  grid-column: 11 / 12;
+  grid-row: 4 / 6;
+  align-self: start;
+  justify-self: start;
+}
+
+h1 {
+  grid-column: 3 / 7;
+  grid-row: 1 / 2;
+  justify-self: center;
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+}
+
+p {
+  width: 850px;
+  grid-column: 4 / 11;
+  grid-row: 4 / 6;
+  justify-self: end;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.35em;
+  align-self: start;
+  justify-self: center;
+}

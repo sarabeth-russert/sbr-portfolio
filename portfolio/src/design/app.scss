@@ -1,0 +1,49 @@
+.app {
+  // background-color: rgb(165, 156, 145);
+  background-image: url("../assets/background.png");
+  color: rgb(65, 45, 10);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 35px 320px 635px 490px 700px 300px 35px;
+  height: 2500px;
+}
+
+header {
+  grid-column: 1/4;
+  grid-row: 1;
+}
+
+#banner {
+  grid-column: 1/4;
+  grid-row: 2;
+}
+
+.about {
+  grid-column: 2/4;
+  grid-row: 3;
+  justify-self: end;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.experience {
+  grid-column: 1/3;
+  grid-row: 4;
+}
+
+.work {
+  grid-column: 1/4;
+  grid-row: 5;
+  justify-self: center;
+}
+
+#connect {
+  grid-column: 2/3;
+  grid-row: 6;
+}
+
+footer {
+  grid-column: 1/4;
+  grid-row: 7/8;
+}
+
