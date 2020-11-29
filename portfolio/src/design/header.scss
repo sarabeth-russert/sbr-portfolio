@@ -1,0 +1,67 @@
+header {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  div {
+    display: flex;
+    justify-content: space-around;
+    h3 {
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #linkIconLI {
+      height: 27px;
+      margin-right: 10px;
+      margin-top: 4px;
+    }
+    #linkIconGH {
+      height: 35px;
+      margin-right: 10px;
+    }
+  }
+  nav {
+    a {
+      color: rgb(65, 45, 10);
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1em;
+      font-weight: bold;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    a:link {
+      color: rgb(65, 45, 10);
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1em;
+      font-weight: bold;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    a:visited {
+      color: rgb(65, 45, 10);
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1em;
+      font-weight: bold;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    a:hover {
+      color: rgb(65, 45, 10);
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1em;
+      font-weight: bold;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    a:active {
+      color: rgb(65, 45, 10);
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1em;
+      font-weight: bold;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+  }
+}

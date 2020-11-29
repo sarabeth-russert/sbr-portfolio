@@ -1,0 +1,48 @@
+.projectCard {
+  background-color: rgb(226, 208, 159);
+  border: 2px solid rgb(65, 45, 10);;
+  border-radius: 10px;
+  display: grid;
+  font-family: 'Times New Roman', Times, serif;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 170px 330px 50px;
+  height: 580px;
+  margin: 2px;
+  padding: 5px;
+  width: 315px;
+  .projectImage {
+    border-radius: 10px;
+    height: 160px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin: 5px;
+    width: 290px;
+  }
+  article {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    h3 {
+      font-size: 1.3em;
+      font-weight: bold;
+      margin-left: 5px;
+    }
+    p {
+      font-size: 1.1em;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 295px;
+    }
+    ul {
+      font-size: 1em;
+      list-style: outside;
+      padding-left: 25px;
+      li {
+        margin-top: 5px;
+      }
+    }
+  }
+  .projectButton {
+    grid-column: 2/3;
+    grid-row: 3;
+  }
+}

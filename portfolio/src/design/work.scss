@@ -1,0 +1,19 @@
+.work {
+  background-color: rgb(122, 151, 76);
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  height: 680px;
+  padding-top: 15px;
+  width: 1300px;
+  #workHeader {
+    h2{
+      font-size: 3em;
+      text-align: right;
+      margin-right: 25px;
+    }
+  }
+  #workCards {
+    display: flex;
+    justify-content: center;
+  }
+}

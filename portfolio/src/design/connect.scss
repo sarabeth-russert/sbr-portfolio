@@ -1,0 +1,27 @@
+#connect {
+  background-color: grey;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 800px;
+  margin-bottom: 25px;
+  h2 {
+    font-size: 3em;
+    padding-top: 15px;
+    margin-left: 25px;
+  }
+  p {
+    font-size: 1.3em;
+    margin-left: 25px;
+    width: 550px;
+  }
+  #connectLinks {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+    .connectImages {
+      height: 50px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+    }
+  }
+}
