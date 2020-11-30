@@ -1,11 +1,11 @@
 .app {
-  // background-color: rgb(165, 156, 145);
   background-image: url("../assets/background-foliage.png");
+  background-repeat: no-repeat;
+  background-size: auto;
   color: rgb(65, 45, 10);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 35px 320px 635px 490px 700px 300px 35px;
-  height: 2500px;
+  grid-template-rows: 80px 310px 630px 550px 720px 270px 360px;
 }
 
 header {
@@ -14,36 +14,41 @@ header {
 }
 
 #banner {
+  align-self: end;
   grid-column: 1/4;
   grid-row: 2;
 }
 
 .about {
+  align-self: end;
   grid-column: 2/4;
   grid-row: 3;
   justify-self: end;
   margin-right: 25px;
-  margin-top: 25px;
 }
 
 .experience {
+  align-self: center;
   grid-column: 1/3;
   grid-row: 4;
 }
 
 .work {
+  align-self: start;
   grid-column: 1/4;
   grid-row: 5;
   justify-self: center;
 }
 
 #connect {
+  align-self: center;
   grid-column: 2/3;
   grid-row: 6;
 }
 
 footer {
   grid-column: 1/4;
-  grid-row: 7/8;
+  grid-row: 7;
+  align-self: end;
 }
 
